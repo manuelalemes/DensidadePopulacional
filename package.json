@@ -1,0 +1,28 @@
+{
+  "name": "densidade-geoespacial",
+  "version": "1.0.0",
+  "description": "API e front-end para calcular densidade populacional em uma região (pessoas/m2).",
+  "main": "dist/server.ts",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "build": "tsc -p .",
+    "start": "ts-node src/server.ts"
+  },
+  "dependencies": {
+    "@turf/turf": "^6.5.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "pg": "^8.10.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^4.17.19",
+    "@types/node": "^20.19.25",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
