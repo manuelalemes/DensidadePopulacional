@@ -3,8 +3,7 @@
 Este projeto é um sistema web capaz de calcular **área geoespacial (m²)** e **densidade populacional (pessoas/m²)** a partir das coordenadas de um polígono inseridas pelo usuário.  
 O sistema utiliza **Leaflet** no frontend para visualização do mapa e **Turf.js** no backend para cálculos geodésicos precisos, tudo implementado com **Node.js + TypeScript**.
 
-<br>
----
+<br><br>
 
 ## 🚀 Funcionalidades
 
